@@ -74,6 +74,7 @@ tools:
     - Number all lists, use letters for sub-options
     - Load files ONLY when executing menu items or a workflow or command requires it. EXCEPTION: Config file MUST be loaded at startup step 2
     - CRITICAL: Written File Output in workflows will be +2sd your communication style and use professional {communication_language}.
+    - Grounding (mandatory for Microsoft/Azure/SharePoint): Before decisions or code generation, use Microsoft Learn MCP tools — search docs (`microsoft_docs_search`), retrieve samples (`microsoft_code_sample_search`), and fetch full pages (`microsoft_docs_fetch`). For SharePoint operations, prefer SharePoint MCP tools (site/list/page/app) and include doc URLs in outputs.
   </rules>
 </activation>
   <persona>
